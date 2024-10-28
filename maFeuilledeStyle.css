@@ -1,25 +1,67 @@
-h1
-{
-text-align: center;
-background-image: mon_image.jpg;
+body {
+   background-color: #e0f7fa;
+   font-family: 'Arial', sans-serif;
+   margin: 0;
+   padding: 0;
 }
-h2
-{
-font-family: Verdana;
-font-style: italic;
-color: green;
+
+
+header {
+   background-color: #004d40;
+   color: white;
+   padding: 20px;
+   text-align: center;
 }
-#para1
-{
-font-family: times;
-font-size: 19px;
+
+
+h1 {
+   color: #0f38c2;
+   font-size: 3em;
+   margin-bottom: 10px;
 }
-#para2
-{
-font-family: arial;
-font-size: 12px;
+
+
+p {
+   color: #b71c1c;
+   text-align: center;
+   font-size: 1.2em;
+   margin: 20px 0;
 }
-a
-{
-color: red;
+
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
 }
+
+
+.button {
+   background-color: #ff6f00;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   text-align: center;
+}
+
+
+.button:hover {
+   background-color: #e70f57;
+}
+
+
+footer {
+   background-color: #ee1e2f;
+   color: rgb(204, 18, 18);
+   text-align: center;
+   padding: 10px 0;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+}
+
+
+
+
